@@ -43,3 +43,8 @@ services:
 
 volumes:
   chartbrew-db:
+
+networks:
+  default:
+    name: main
+    external: true
