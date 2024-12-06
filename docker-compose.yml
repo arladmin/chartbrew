@@ -12,6 +12,8 @@ services:
       MYSQL_PASSWORD: ${CB_DB_PASSWORD}
       MYSQL_RANDOM_ROOT_PASSWORD: true
       CB_DB_HOST: db
+    ports:
+      - 3306:3306
     volumes:
       - chartbrew-db:/var/lib/mysql
 
