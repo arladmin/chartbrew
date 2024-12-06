@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://chartbrew.com">
-    <img src="./docs/.vuepress/public/assets/logo_full_3.png" alt="ChartBrew logo" width="250"/>
+    <img src="https://chartbrew.com/Cuplogo.svg" alt="ChartBrew logo" width="50"/>
   </a>
 </a>
 
@@ -50,7 +50,7 @@
 
 It is recommended you head over to the more detailed documentation to find out how to set up Chartbrew
 
-[📚 You can find it here](https://docs.chartbrew.com/#getting-started)
+[📚 You can find it here](https://docs.chartbrew.com/quickstart)
 
 ## Set up Chartbrew locally
 
@@ -65,7 +65,7 @@ git clone https://github.com/chartbrew/chartbrew.git
 cd chartbrew && npm run setup
 ```
 
-Complete the required environmental variables in `chartbrew/.env`. [Check out which need to be set here.](https://docs.chartbrew.com/#set-up-environmental-variables)
+Complete the required environmental variables in `chartbrew/.env`. [Check out which need to be set here.](https://docs.chartbrew.com/quickstart#environmental-variables)
 
 ### Run the project in Development
 
@@ -93,7 +93,7 @@ Head over to `http://localhost:4018` to see the app running and create your firs
 
 ## Run with Docker
 
-[Check the full guide in the docs.](https://docs.chartbrew.com/deployment/#run-the-application-with-docker)
+[Check the full guide in the docs.](https://docs.chartbrew.com/deployment/run-on-docker)
 
 ### Quickstart
 
